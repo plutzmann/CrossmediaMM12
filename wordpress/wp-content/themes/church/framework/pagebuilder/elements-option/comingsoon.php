@@ -1,0 +1,65 @@
+<?php
+global $waves_elements;
+$waves_elements["comingsoon"] = array(
+    "name" => "Coming Soon",
+    "size" => "col-md-12",
+    "min-size" => "col-md-6",
+    "content" => "coming_content",
+    "help" => "",
+    "settings" => array(
+        "coming_title" => array(
+            "title" => "Title",
+            "type" => "text",
+            "holder" => "",
+            "default" => "",
+            "desc" => "",
+        ),
+        "coming_content" => array(
+            "title" => "",
+            "type" => "textArea",
+            "tinyMCE" => "true",
+            "holder" => "",
+            "default" => "Coming Soon Content",
+            "desc" => "",
+        ),
+        "coming_years" => array(
+            "title" => "Years",
+            "type" => "select",
+            "options" => array("2013" => "2013", "2014" => "2014", "2015" => "2015", "2016" => "2016", "2017" => "2017", "2018" => "2018"),
+            "holder" => "",
+            "default" => "2018",
+            "desc" => "",
+        ),
+        "coming_months" => array(
+            "title" => "Months",
+            "type" => "select",
+            "options" => array("01" => "January","02" => "February","03" => "March","04" => "April","05" => "May","06" => "June","07" => "July","08" => "August","09" => "Septempber","10" => "October","11" => "November","12" => "December"),
+            "holder" => "",
+            "default" => "12",
+            "desc" => "",
+        ),
+        "coming_days" => array(
+            "title" => "Days",
+            "type" => "select",
+            "options" => array("00" => "00","01" => "01","02" => "02","03" => "03","04" => "04","05" => "05","06" => "06","07" => "07","08" => "08","09" => "09","10" => "10","11" => "11","12" => "12","13" => "13","14" => "14","15" => "15","16" => "16","17" => "17","18" => "18","19" => "19","20" => "20","21" => "21","22" => "22","23" => "23","24" => "24","25" => "25","26" => "26","27" => "27","28" => "28","29" => "29","30" => "30","31" => "31"),
+            "holder" => "",
+            "default" => "28",
+            "desc" => "",
+        ),
+        "coming_hours" => array(
+            "title" => "Hours",
+            "type" => "select",
+            "options" => array("00" => "00","01" => "01","02" => "02","03" => "03","04" => "04","05" => "05","06" => "06","07" => "07","08" => "08","09" => "09","10" => "10","11" => "11","12" => "12","13" => "13","14" => "14","15" => "15","16" => "16","17" => "17","18" => "18","19" => "19","20" => "20","21" => "21","22" => "22","23" => "23"),
+            "holder" => "",
+            "default" => "12",
+            "desc" => "",
+        ),
+        "coming_link" => array(
+            "title" => "Your Feedburner Title",
+            "type" => "text",
+            "holder" => "",
+            "default" => "",
+            "desc" => "If empty, Subscribe form none",
+        ),
+    ),
+);
