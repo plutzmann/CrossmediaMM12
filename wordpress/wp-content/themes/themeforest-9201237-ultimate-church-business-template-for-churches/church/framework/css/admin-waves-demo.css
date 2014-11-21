@@ -1,0 +1,56 @@
+#waves-demo-list-container>li{
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
+#waves-demo-list-container>li>.demo-thumb>img{
+    width: 100%;
+}
+.waves-notice>div{
+    display: none;
+    margin: 5px;
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: #0074A2;
+    padding: 10px;
+    background-color: #FFF;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow:    0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow:         0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.waves-notice>.active{
+    display: block;
+}
+.waves-notice>.error{
+    border-left-color: #D54E21;
+}
+.waves-notice>.succes{
+    border-left-color: #7AD03A;
+}
+#waves-demo-backup-list-container{
+    background-color: #D6E2CA;
+}
+#waves-demo-backup-list-container>li{
+    margin: 5px 0;
+    padding: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: #659F13;
+    border-bottom-width: 2px;
+    position: relative;
+}
+#waves-demo-backup-list-container>li>div{
+    display: inline-block;
+}
+#waves-demo-backup-list-container>li>.demo-backup-name{
+    width: 50%;
+}
+#waves-demo-backup-list-container>li>.demo-backup-date{
+    width: 20%;
+}
+#waves-demo-backup-list-container>li>.demo-backup-buttons{
+    position: absolute;
+    right: 20px;
+}
+#waves-demo-backup-list-container .delete-backup{
+    color: red;
+}
