@@ -77,6 +77,7 @@ function themewaves_scripts() {
     wp_enqueue_style('waves-animate', THEME_DIR . '/assets/css/animate.css');
     wp_enqueue_style('waves-fa', THEME_DIR . '/assets/css/font-awesome.min.css');
     wp_enqueue_style('themewaves', STYLESHEET_DIR . '/style.css');
+	wp_enqueue_style('themewaves', STYLESHEET_DIR . '/custom.css');
     wp_enqueue_style('waves-responsive', THEME_DIR . '/assets/css/responsive.css');
 
 
