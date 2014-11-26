@@ -1,3 +1,9 @@
 .logo-center.logo-container{
 	text-align:left;
 }
+
+/*Video*/
+
+.ls-l.ls-video-layer.ls-videohack {
+	left: 0;
+}
