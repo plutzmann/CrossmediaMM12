@@ -2,11 +2,14 @@
 
 .logo-center.logo-container{
 	text-align:left;
+	padding-top: 52px;
+	padding-bottom: 52px;
 }
 @media (max-width: 991px) { 
 .logo-center.logo-container {
 text-align: center;
 padding-bottom: 50px;
+padding-top: 10px;
 }
 }
 /* ------------ Video ------------- */
