@@ -3,7 +3,12 @@
 .logo-center.logo-container{
 	text-align:left;
 }
-
+@media (max-width: 991px) { 
+.logo-center.logo-container {
+text-align: center;
+padding-bottom: 50px;
+}
+}
 /* ------------ Video ------------- */
 
 .div.ls-l.ls-video-layer.ls-videohack {
