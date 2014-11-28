@@ -71,6 +71,9 @@
     .portfolio-thumb img {
         width: 100%;
     }
+    .mobile-menu{
+        margin-bottom: 40px;
+    }
     .show-mobile-menu {
         display: block;
     }
@@ -345,7 +348,7 @@
         margin-bottom: 80px;
     }
     .show-mobile-menu.logo-center{
-        margin-bottom: -110px;
+        margin-bottom: -120px;
     }
 }
 

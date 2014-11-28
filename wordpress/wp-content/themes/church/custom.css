@@ -2,16 +2,25 @@
 
 .logo-center.logo-container{
 	text-align:center;
-	/*padding-top: 52px;
-	padding-bottom: 52px;*/
+/*	padding-top: 52px;
+*/	/*padding-bottom: 151px;*/
 }
 @media (max-width: 991px) { 
 .logo-center.logo-container {
 text-align: center;
-/*padding-bottom: 50px;
-padding-top: 10px;*/
+padding-bottom: 35px;
+
+/*padding-top: 10px;*/
 }
 }
+
+@media (max-width: 767px) { 
+    .mobile-menu{
+        margin-bottom: 80px;
+}
+}
+
+
 /* ------------ Video ------------- */
 
 .div.ls-l.ls-video-layer.ls-videohack {
