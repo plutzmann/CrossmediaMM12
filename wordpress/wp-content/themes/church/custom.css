@@ -16,13 +16,31 @@ padding-bottom: 35px;
 
 @media (max-width: 767px) { 
     .mobile-menu{
-        margin-bottom: 80px;
+        margin-top: 190px;
 }
+	.show-mobile-menu.logo-center{
+		margin-bottom: -200px;
+	}
 }
 
+
+#page-title {
+	padding-top: 1px; 
+	padding-bottom: 1px; 
+}
 
 /* ------------ Video ------------- */
 
 .div.ls-l.ls-video-layer.ls-videohack {
 	left: auto;
+}
+
+ul.sf-menu > li > a {
+	padding: 15px 15px 15px;
+}
+
+#mobile-menu ul li.has-children>.action-expand{
+	font-size: 80px;
+	float: left;
+	width: 10%;
 }
