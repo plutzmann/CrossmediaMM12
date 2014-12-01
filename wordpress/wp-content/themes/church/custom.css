@@ -43,7 +43,10 @@ ul.sf-menu > li > a {
 }
 
 #mobile-menu ul li.has-children>.action-expand{
-	font-size: 80px;
+	font-size: 70px;
 	float: left;
 	width: 10%;
+
+
 }
+
