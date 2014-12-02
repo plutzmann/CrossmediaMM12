@@ -31,10 +31,11 @@ padding-bottom: 35px;
 
 /* ------------ Video ------------- */
 
-.div.ls-l.ls-video-layer.ls-videohack {
-	left: auto;
-}
 
+.ls-l.ls-video-layer.ls-videohack{
+	left: 0px !important;
+
+}
 
 
 /* ------------ Menü ------------- */
